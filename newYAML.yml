@@ -8,6 +8,6 @@ jdk:
 branches:
     only:
         - master
-        
 build:
-  
+  on_success:
+    - mvn clean test
