@@ -10,5 +10,4 @@ branches:
         - master
         
 build:
-    ci:
-        - mvn test
+  
